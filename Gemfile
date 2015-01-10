@@ -7,7 +7,8 @@ gem 'rails', '4.1.8'
 group :development, :test do
 	gem 'sqlite3'
 end
-
+ 
+gem 'pg'
 group :assets do
 gem 'sass-rails'
 gem 'coffee-rails'
